@@ -1,0 +1,49 @@
+@import "reactSuite";
+@import "_common";
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    @include d-flex-justify-btw;
+    padding: 0.3px 4%;
+    margin-bottom: 30px;
+    color: #d9dfdf;
+    padding-top: 10px;
+    background-color: $main-color-2;
+a{
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: transparent;
+    color:#d9dfdf;
+    border-radius: 22px;
+    padding: 2px 5px;
+    &:hover{
+        background-color: white;
+        color:$main-color-2;
+        font-weight: 500;
+    }
+    &:focus{
+        background-color: transparent;
+        color:white;
+        font-weight: 500;
+    }
+}
+    .navElem {
+        font-size: 40px;
+        color: #d9dfdf;
+        cursor: pointer;
+        background: transparent;
+        text-decoration: none;
+        border: none;
+    }
+}
+
+@media screen and (max-width:700px) {
+    nav{
+    .navElem{
+        font-size: 30px;
+    }
+}
+}

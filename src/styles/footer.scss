@@ -1,0 +1,216 @@
+@import "common";
+
+#footer {
+    position: sticky;
+    margin: auto;
+    margin-top: 80px;
+    width: 100%;
+    text-align: center;
+    top: 100%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+    color: #d9dfdf;
+    background-color: $main-color-2;
+    padding-top: 3%;
+    padding-bottom: 0.3%;
+}
+
+#footer-div1 {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 0% 3%;
+}
+
+#footer-div2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    padding: 0% 9%;
+}
+
+div {
+    box-sizing: border-box;
+}
+.social-media-icons{
+    margin-right: 10%;
+    
+}
+
+#title {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 7%;
+
+    h1 {
+        text-align: left;
+    }
+}
+
+#subscription {
+    text-align: left;
+    margin-bottom: 7%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+
+    span {
+        display: flex;
+        flex-wrap: nowrap;
+
+        input {
+            margin: "1% 0";
+            width: 90%;
+            height: 50px;
+            color: black;
+
+        }
+
+        button {
+            margin: "1% 0";
+            height: 50px;
+            color: black;
+            letter-spacing: 1px;
+            border: none;
+        }
+    }
+
+    dt {
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    dl {
+        margin-left: 10px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #footer {
+        font-size: small;
+        align-items: center;
+    }
+
+    #title {
+        width: 100%;
+    }
+
+    #footer-div1 {
+        display: block;
+        align-content: center;
+        width: 90%;
+    }
+
+    #footer-div2 {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+
+    #subscription {
+        margin: auto;
+        text-align: center;
+        margin-bottom: 7%;
+        width: 100%;
+
+        span {
+            width: 100%;
+            display: block;
+            input {
+                width: 65%;
+                margin: "1% 0";
+                height: 50px;
+                color: black;
+            }
+            button {
+                text-align: center;
+                margin: "1% 0";
+                width: 25%;
+                height: 50px;
+                color: black;
+                letter-spacing: 1px;
+                border: none;
+            }
+        }
+        #contact{
+            dt {
+                display: inline-block;
+                font-size: 15px;
+            }
+        
+            dl {
+                margin-left: 10px;
+                display: inline-block;
+            }
+        }
+    } 
+}
+
+@media screen and (max-width:4px) {
+    #footer {
+        font-size: small;
+        align-items: center;
+    }
+
+    #title {
+        width: 100%;
+    }
+
+    #footer-div1 {
+        display: block;
+        align-content: center;
+        width: 90%;
+    }
+
+    #footer-div2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+
+    #subscription {
+        margin: auto;
+        text-align: center;
+        margin-bottom: 7%;
+        width: 100%;
+
+        span {
+            width: 100%;
+            display: block;
+            input {
+                width: 65%;
+                margin: "1% 0";
+                height: 50px;
+                color: black;
+            }
+            button {
+                text-align: center;
+                margin: "1% 0";
+                width: 25%;
+                height: 50px;
+                color: black;
+                letter-spacing: 1px;
+                border: none;
+            }
+        }
+        #contact{
+            dt {
+                display: inline-block;
+                font-size: 15px;
+            }
+        
+            dl {
+                margin-left: 10px;
+                display: inline-block;
+            }
+        }
+    } 
+}
