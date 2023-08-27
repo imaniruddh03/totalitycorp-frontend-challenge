@@ -14,6 +14,7 @@ It uses the following Hooks majorly:
 # Tech Stack Used
 Vitejs
 Reactjs
+SCSS
 
 
 # How to Run Project
